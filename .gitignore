@@ -1,0 +1,32 @@
+# Logs and synthesis outputs
+logs/
+*.log
+*.rpt
+*.syn.v
+
+# Generated reports
+reports/*.csv
+reports/*.md
+reports/*.png
+reports/*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor / OS specific
+.DS_Store
+.vscode/
+.idea/
+
+# Build directory (if used)
+build/
+
+# If using virtualenv
+.venv/
+env/
